@@ -1,0 +1,27 @@
+# CocoaPods's plugins for Flutter
+plugin 'cocoapods-deintegrate', :version => '1.0.5'
+
+# Uncomment this line to define a global platform for your project
+platform :ios, '12.0'
+
+# The Flutter post-install script replaces this with an absolute path to a local Podfile
+# from the Flutter SDK.
+require_relative Flipper::Podfile::FLIPPER_PATH if defined?(Flipper::Podfile) && Flipper::Podfile.enabled?(%w[ios])
+
+target 'Runner' do
+  use_frameworks!
+  use_modular_headers!
+
+  # The Flutter post-install script replaces this with an absolute path to a local
+  # Podfile from the Flutter SDK.
+  flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
+end
+
+post_install do |installer|
+  # The Flutter post-install script replaces this with an absolute path to a local
+  # Podfile from the Flutter SDK.
+  flutter_post_install(installer) if defined?(flutter_post_install)
+  if defined?(Flipper::Podfile) && Flipper::Podfile.enabled?(%w[ios])
+    Flipper::Podfile.post_install(installer)
+  end
+end

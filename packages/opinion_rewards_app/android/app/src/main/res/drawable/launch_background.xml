@@ -1,0 +1,8 @@
+<!-- You can insert a solid color here -->
+<item android:drawable="?android:colorBackground" />
+<!-- You can insert a logo here -->
+<!-- <item>
+    <bitmap
+        android:gravity="center"
+        android:src="@mipmap/launch_image" />
+</item> -->

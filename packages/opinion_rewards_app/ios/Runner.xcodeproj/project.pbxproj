@@ -1,0 +1,219 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		244C414F1A45D91A00E47B2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244C414E1A45D91A00E47B2C /* AppDelegate.swift */; };
+		244C41541A45D91A00E47B2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244C41521A45D91A00E47B2C /* Main.storyboard */; };
+		244C41571A45D91A00E47B2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244C41561A45D91A00E47B2C /* Assets.xcassets */; };
+		244C415A1A45D91A00E47B2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244C41581A45D91A00E47B2C /* LaunchScreen.storyboard */; };
+		C031D03328321F6200279603 /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C031D02E28321F6200279603 /* App.framework */; };
+		C031D03428321F6200279603 /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C031D02F28321F6200279603 /* Flutter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		244C414B1A45D91A00E47B2C /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		244C414E1A45D91A00E47B2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		244C41511A45D91A00E47B2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		244C41521A45D91A00E47B2C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		244C41561A45D91A00E47B2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		244C41581A45D91A00E47B2C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		244C415B1A45D91A00E47B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C031D02E28321F6200279603 /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = App.framework; path = Flutter/App.framework; sourceTree = "<group>"; };
+		C031D02F28321F6200279603 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = Flutter/Flutter.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		244C41481A45D91A00E47B2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C031D03428321F6200279603 /* Flutter.framework in Frameworks */,
+				C031D03328321F6200279603 /* App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		244C41441A45D91A00E47B2C = {
+			isa = PBXGroup;
+			children = (
+				244C414D1A45D91A00E47B2C /* Runner */,
+				C031D02D28321F6200279603 /* Flutter */,
+				244C414C1A45D91A00E47B2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		244C414C1A45D91A00E47B2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				244C414B1A45D91A00E47B2C /* Runner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		244C414D1A45D91A00E47B2C /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+				244C414E1A45D91A00E47B2C /* AppDelegate.swift */,
+				244C41521A45D91A00E47B2C /* Main.storyboard */,
+				244C41561A45D91A00E47B2C /* Assets.xcassets */,
+				244C41581A45D91A00E47B2C /* LaunchScreen.storyboard */,
+				244C415B1A45D91A00E47B2C /* Info.plist */,
+			);
+			path = Runner;
+			sourceTree = "<group>";
+		};
+		C031D02D28321F6200279603 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				C031D02E28321F6200279603 /* App.framework */,
+				C031D02F28321F6200279603 /* Flutter.framework */,
+			);
+			name = Flutter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		244C414A1A45D91A00E47B2C /* Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244C415F1A45D91A00E47B2C /* Build configuration list for PBXNativeTarget "Runner" */;
+			buildPhases = (
+				244C41471A45D91A00E47B2C /* Sources */,
+				244C41481A45D91A00E47B2C /* Frameworks */,
+				244C41491A45D91A00E47B2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Runner;
+			productName = Runner;
+			productReference = 244C414B1A45D91A00E47B2C /* Runner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		244C41451A45D91A00E47B2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Example";
+			};
+			buildConfigurationList = 244C41461A45D91A00E47B2C /* Build configuration list for PBXProject "Runner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 244C41441A45D91A00E47B2C;
+			productRefGroup = 244C414C1A45D91A00E47B2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				244C414A1A45D91A00E47B2C /* Runner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		244C41491A45D91A00E47B2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244C415A1A45D91A00E47B2C /* LaunchScreen.storyboard in Resources */,
+				244C41571A45D91A00E47B2C /* Assets.xcassets in Resources */,
+				244C41541A45D91A00E47B2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		244C41471A45D91A00E47B2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244C414F1A45D91A00E47B2C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		244C415D1A45D91A00E47B2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Runner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.opinionRewardsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		244C415E1A45D91A00E47B2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Runner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.opinionRewardsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		244C41601A45D91A00E47B2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		244C41611A45D91A00E47B2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		244C41461A45D91A00E47B2C /* Build configuration list for PBXProject "Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244C41601A45D91A00E47B2C /* Debug */,
+				244C41611A45D91A00E47B2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244C415F1A45D91A00E47B2C /* Build configuration list for PBXNativeTarget "Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244C415D1A45D91A00E47B2C /* Debug */,
+				244C415E1A45D91A00E47B2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 244C41451A45D91A00E47B2C /* Project object */;
+}

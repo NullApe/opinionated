@@ -1,0 +1,28 @@
+name: opinion_rewards
+
+packages:
+  - packages/**
+
+# Command hooks allow you to intercept and inject logic before or after a melos command.
+command:
+  bootstrap:
+    # We can use the post-bootstrap hook to generate our internationalization files.
+    # post: melos run generate:i18n
+
+scripts:
+  analyze:
+    # Run `flutter analyze` in all packages.
+    run: melos exec -c 1 -- "flutter analyze ."
+    description: Run `flutter analyze` in all packages.
+
+  test:
+    # Run `flutter test` in all packages.
+    # The `-c 1` flag is important to prevent issues with the flutter drive tests.
+    run: melos exec -c 1 -- "flutter test --coverage"
+    description: Run `flutter test` in all packages and generate coverage reports.
+
+  # An example script for generating code in a specific package.
+  # generate:i18n:
+  #   run: |
+  #     cd packages/opinion_rewards_app && flutter gen-l10n
+  #   description: Generate i18n files for the mobile app.
